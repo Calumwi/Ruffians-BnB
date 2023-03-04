@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--
+        Head to https://github.com/makersacademy/web-applications/blob/main/pills/loading_css_or_static_files.md
+        If you're wondering how the CSS file below is being loaded.
+  -->
+  
+  <title>MakersBnB</title>
+  </head>
+
+  <body>  
+    <h1>Ruffhouses</h1>
+    <h2>Check out all spaces</h2>
+      <% @spaces.each do |space|%>
+        <p><a href= "/spaces/<%= space.id %>"><%= space.space_name %></a></p>
+        <img src="<%= space.image%>" alt="Image of <%= space.space_name %>" width="320" height="180">
+        <p>£<%= space.price_per_night %>0</p>
+        <p>----------</p>
+      <% end %>
+    </body>
+</html>
