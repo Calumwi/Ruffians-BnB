@@ -43,9 +43,7 @@ rackup
 ```
 
 ## Testing & Code clarity
-- Rubocopped*
-- Test coverage probably* great
-- (we haven't checked)
+- Rubocop
 
 
 ## Further Development Roadmap
