@@ -4,7 +4,7 @@
 
 A web app clone of MakersBnB, allowing any young Ruffian to book their space to stay.
 
-This repo contains the codebase for the MakersBnB project in Ruby (using Sinatra, Active Record & RSpec, deployed to Heroku).
+This repo contains the codebase for the MakersBnB project in Ruby (using Sinatra, Active Record & RSpec.
 
 ## Functions
 - Databases seeded & built using ORM (Active Record)
@@ -18,7 +18,6 @@ This repo contains the codebase for the MakersBnB project in Ruby (using Sinatra
 - If users make input errors, bespoke error pages displayed
 - HTML & CSS refined
 - Standardised HyperLinks on each page
-- Deployed via Heroku: https://whispering-coast-63820.herokuapp.com
 
 ## Setup
 
